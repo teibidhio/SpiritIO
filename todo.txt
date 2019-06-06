@@ -1,0 +1,13 @@
+* Use various types of Bhuta (spirits) to create lasting spell effects.
+* Use various Bhuta to power blocks and structures, the effect depending on the type of Bhuta.
+* Create a bond with a Bhuta to become its Bhutachari, a companion. It will travel with you and aid you in your adventures.
+* ?? Karma system where karma goes up and down depending on how you use the spirits and whether you make a request or a command.
+* In order to bind create a pact with a Bhuta you must hunt it down in The Akasha, the ethereal version of Minecraftia.
+* Discover ancient Aksara (syllables) and combine them to form Mantra which create instant or short-duration spell effects.
+* As your bond with the denizens of The Akasha grows, you may be imbued with Siddhim, special powers or protections granted by benevolent greater spirits.
+
+
+- Create The Akasha dimension with custom worldgen options using overworld as a template.
+- Create a 'bhuta' mob, see where that takes us.
+- Create "marker stone" block, introduce to worldgen.
+- Collect multiple tomes and scrolls of lost lore to augment the information in your Akashic Grimoire.

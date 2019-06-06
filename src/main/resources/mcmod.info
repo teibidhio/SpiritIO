@@ -1,0 +1,16 @@
+[
+{
+  "modid": "spiritio",
+  "name": "SpiritIO",
+  "description": "Discover the ancient secrets of the spirits!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/teibidh/SpiritIO",
+  "updateUrl": "",
+  "authorList": ["Teibidh"],
+  "credits": "The Forge team, boredom at work and a slight sense of masochism.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

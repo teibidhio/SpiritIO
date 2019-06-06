@@ -1,0 +1,91 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url = "https://files.minecraftforge.net/maven" }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+//Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+
+
+version = "0.0.1-dev"
+group = "io.teibidh.spiritio"
+archivesBaseName = "SpiritIO"
+
+sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+compileJava {
+    sourceCompatibility = targetCompatibility = '1.8'
+}
+
+minecraft {
+    version = "1.12.2-14.23.5.2768"
+    runDir = "run"
+    
+    mappings = "stable_39"
+
+    replace "@VERSION@", project.version
+    replaceIn "SpiritIO.jar"
+
+    replace 'scala.actors.threadpool.Arrays', 'java.util.Arrays'
+}
+
+repositories {
+	// Patchouli
+    maven { 
+		name = "Blame Jared"
+		url "https://maven.blamejared.com"
+	}
+	
+	// Waila
+	maven {
+		name = "Mobius Repo"
+		url = "http://tehnut.info/maven"
+	}
+	
+	// TOP
+	maven {
+		name = "tterag maven"
+		url = "http://maven.tterrag.com/"
+	}
+	
+	// JEI
+	maven {
+		name = "Progwml6 maven"
+		url = "https://dvs1.progwml6.com/files/maven/"
+	}
+	
+	// Mirrors
+	maven {
+		name = "ModMaven"
+		url = "https://modmaven.k-4u.nl"
+	}
+}
+
+dependencies {
+	deobfCompile "vazkii.patchouli:Patchouli:[1.0-19.98]"
+	deobfCompile "mezz.jei:jei_${mc_version}:${jei_version}:api"
+	deobfCompile "mcp.mobius.waila:Hwyla:1.8.26-B41_1.12.2"
+	deobfCompile "mcjty.theoneprobe:TheOneProbe-1.12:${top_version}"
+}
+
+processResources {
+    // this will ensure that this task is redone when the versions change.
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    // replace stuff in mcmod.info, nothing else
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+                
+        // replace version and mcversion
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+        
+    // copy everything else except the mcmod.info
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
