@@ -5,11 +5,11 @@
   "description": "Discover the ancient secrets of the spirits!",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/teibidh/SpiritIO",
+  "url": "http://github.com/teibidhio/spiritio",
   "updateUrl": "",
   "authorList": ["Teibidh"],
   "credits": "The Forge team, boredom at work and a slight sense of masochism.",
-  "logoFile": "",
+  "logoFile": "http://github.com/teibidhio/SpiritIO.png",
   "screenshots": [],
   "dependencies": []
 }
