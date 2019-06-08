@@ -1,0 +1,12 @@
+{
+	"homepage": "https://github.com/teibidhio/spiritio"
+	"1.12.2": {
+		".0.0.2": "No real implementation, still. Cleaned up initial structure based on best practices and observed habits of some modders whose work I'm particularly enamored with. Too early to add people to credits, a couple of you know who you are and if you're reading this, I hope it's for good reasons!",
+		".0.0.1": "SpiritIO.class generates successfully and does, and I'm dead serious, absolutely nothing. Getting GitHub, build tools and some of the toys that add more polish down the road taken care of because it's all basic computer, internet, etc. Basic grasp of Java concepts obtained, referneces and help resources located. I'll put off writing code that modifies Minecraft as long as possible!"
+	}
+	"promos": {
+		"<1.12.2>-latest": "0.0.2",
+		"<1.12.2>-recommended": "0.0.2"
+	}
+}
+		

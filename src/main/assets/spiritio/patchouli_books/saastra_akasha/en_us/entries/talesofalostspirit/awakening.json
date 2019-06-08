@@ -1,0 +1,16 @@
+{
+	"name": "Awakening",
+	"priority": "true",
+	"icon": "minecraft:book",
+	"category": "talesofalostspirit",
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(italics)Something is very wrong, $(playername). There are ... there is much I do not know. I am $(bold)Knowledge$()$(italics) yet I am incomplete.$(br2)I require your assistance, please. There are parts of me that must be missing. You are on a quest, even if you don't know it. Please, please, help me find that which is lost to me so that I am whole again, so that Knowledge can know.$()"
+		},
+		{
+			"type": "text",
+			"text": "This book that hasn't seen the light of day for ages knows your name and it has made a request. Perhaps whatever sentience this manual possesses will help you further if you help find its lost knowledge?"
+		}
+	]	
+}
