@@ -9,8 +9,8 @@
   "updateUrl": "",
   "authorList": ["Teibidh"],
   "credits": "The Forge team, boredom at work and a slight sense of masochism.",
-  "logoFile": "http://github.com/teibidhio/SpiritIO.png",
+  "logoFile": "assets/spiritio/SpiritIO.png",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["required-after:forge@[14.23.5.2768,)"]
 }
 ]
