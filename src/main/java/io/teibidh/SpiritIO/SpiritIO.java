@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = SpiritIO.MODID, name = SpiritIO.MODNAME, version = SpiritIO.MODVERSION, useMetadata = true, certificateFingerprint = "e157e8b293e545725d6a067ee1a46664f173e8d8")
+@Mod(modid = SpiritIO.MODID, name = SpiritIO.MODNAME, version = SpiritIO.MODVERSION, useMetadata = true, certificateFingerprint = "e157e8b293e545725d6a067ee1a46664f173e8d8", updateJSON = "https://github.com/teibidhio/spiritio/update_manifest.json")
 public class SpiritIO
 {
 
