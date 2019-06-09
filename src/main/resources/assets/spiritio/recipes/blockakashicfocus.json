@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "aaa",
+    "lgl",
+    "ala"
+  ],
+  "key":
+  {
+    "g":
+      {
+        "type": "forge:ore_dict",
+        "ore": "blockGold"
+      },
+    "a":
+      {
+        "item": "minecraft:planks",
+        "data": 4
+      },
+    "l":
+      {
+        "item": "minecraft:dye",
+        "data": 4
+      }
+  },
+  "result":
+  {
+    "item": "spiritio:blockakashicfocus",
+    "count": 1
+  }
+}

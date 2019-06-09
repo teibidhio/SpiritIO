@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  r",
+    "lal",
+    "g  "
+  ],
+  "key": {
+    "r": {
+      "type": "forge:ore_dict",
+      "ore": "dustRedstone"
+    },
+    "g": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    },
+    "l": {
+      "type": "forge:ore_dict",
+      "ore": "gemLapis"
+    },
+    "a": {
+      "item": "minecraft:planks",
+      "data": 4
+    }
+  },
+  "result":
+  {
+    "item": "spiritio:itemakashicresonator",
+    "count": 1
+  }
+}
